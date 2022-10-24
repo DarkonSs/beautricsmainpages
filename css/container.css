@@ -1,0 +1,273 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.Right-Grid {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Right-Grid p {
+  margin: 100px;
+}
+
+.Middle-Grid {
+  grid-column: 2/6;
+  margin-right: 85px;
+}
+
+.Left-Grid {
+  grid-column: 6/7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Left-Grid p {
+  margin: 100px;
+}
+
+.cards article {
+  margin: 30px 0px;
+}
+
+.card {
+  width: 1000px;
+  border-radius: 40px;
+  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1);
+  background-color: #e8e8e8;
+}
+
+.Middle-Grid article {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cardContent {
+  display: flex;
+}
+
+.takeALookBtnInCard button {
+  background-color: #EBEBEB;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.textSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.takeALookBtnInCard a {
+  color: var(--blueGray);
+  background-color: #e8e8e8;
+  border-width: 1px;
+  border-style: solid;
+  border-image: var(--blueGray);
+  border-image-slice: 1;
+  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1);
+  padding: 15px 55px 15px 55px;
+  letter-spacing: 0.05em;
+}
+
+.takeALookBtnInCard a:hover {
+  color: var(--royalBlue);
+  border: 1px solid var(--royalBlue);
+  box-shadow: 0px 10px 45px -3px rgba(0, 0, 0, 0.25);
+  transition: 0.2s;
+}
+
+.aboutUsPart {
+  background-image: 
+    url('../img/homeBg2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+}
+
+.aboutUsPart h1,
+.aboutUsPart p,
+.aboutUsPart h2,
+.aboutUsPart h3 {
+  color: var(--whiteColor);
+}
+
+.aboutUsPart h1 {
+  font-family: hatton Light;
+  line-height: 80px;
+  font-weight: lighter;
+  font-size: 60px;
+  max-width: 600px;
+}
+
+.aboutUsPart h2 {
+  font-family: hatton Light;
+  line-height: 55px;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.aboutUsPart h3 {
+  font-family: hatton Light;
+  line-height: 55px;
+  font-size: 25px;
+}
+
+.partOfTHeAboutArea {
+  margin-bottom: 80px;
+}
+
+.aboutPartImgSide {
+  display: flex;
+  justify-content: space-around;
+  filter: brightness(70%);
+}
+
+.aboutPartImgSide img {
+  border-radius: 16px;
+}
+
+.aboutPartImgSide div>div {
+  padding: 23px 23px 50px 23px;
+  background-color: rgb(27, 32, 44, 0.9);
+  border-radius: 24px;
+  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.45);
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 296px;
+}
+
+.noMargin {
+  margin: 0px !important;
+}
+
+.alignItems {
+  display: flex;
+  align-items: center;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+/* CONTACT FORM */
+
+.contactForm {
+  max-width: 1000px;
+  border-radius: 40px;
+  background-color: var(--whiteColor);
+  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+.subscribeForm {
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm input,
+.contactForm textarea,
+.contactForm select,
+.subscribeForm input {
+  background-color: var(--whiteColor);
+  width: 100%;
+  resize: none;
+  border: 1px solid var(--colorDisabled);
+  padding: 15px 10px;
+  font-size: 19px;
+  box-sizing: border-box;
+}
+
+.contactForm h3 {
+  text-transform: uppercase;
+}
+
+.contactForm div,
+.subscribeForm div {
+  margin: 0px 0px 20px 0px;
+}
+
+.leanedForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px !important;
+}
+
+.leanedForm div {
+  width: 49%;
+}
+
+.material-icons-outlined {
+  color: var(--colorDisabled);
+  margin-left: 10px;
+}
+
+.infoHeading a p {
+  border-radius: 8px;
+  background-color: var(--whiteColor);
+  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  position: absolute;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: lighter;
+  max-width: 300px;
+  display: none;
+}
+
+.infoHeading a:hover p {
+  display: block;
+  z-index: 1;
+}
+
+.toBeautrics {
+  background-color: #d5d5d5 !important;
+  cursor: not-allowed;
+}
+
+.contactFormTextSide p {
+  font-size: var(--lenghtMd1);
+  line-height: 20px;
+}
+
+#limitText, #limitText2 {
+  width: 100%;
+  text-align: right;
+  margin-top: -25px;
+  padding-right: 10px;
+  color: #737373;
+  font-family: sans-serif;
+  font-size: var(--lenghtSm3);
+}
+
+#limitText2 {
+  margin-top: -30px;
+}
+
+.faqPart {
+  margin-bottom: 100px;
+}
+
+.faqPart details {
+  cursor: pointer;
+  font-size: 24px;
+  padding: 15px 15px 10px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: var(--whiteColor);
+  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1);
+}

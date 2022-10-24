@@ -1,0 +1,141 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 45px -3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  top: 0;
+  background-color: var(--whiteColor);
+  z-index: 1;
+}
+
+.is-sticky {
+  position: sticky;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 10px 0px;
+}
+
+.navbar li {
+  color: var(--colorLabel);
+  font-size: 18px;
+  margin: 0px 33px 0px 33px;
+}
+
+.navbar li:hover {
+  color: var(--colorText);
+  transition: 0.2s;
+}
+
+.subHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 800px;
+  background-image: 
+    url('../img/HomePageBg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+  box-shadow: 0px 10px 45px -3px rgba(0, 0, 0, 0.4);
+}
+
+.subHeaderContent {
+  margin-left: 55px;
+}
+
+.subHeaderContent div>h1, .subHeaderContent div>p {
+  color: var(--inColorText);
+}
+
+.subHeaderContent div>p {
+  padding-bottom: 20px;
+}
+
+.t1 h1 {
+  max-width: 670px;
+  line-height: 80px;
+  font-weight: lighter;
+  font-size: 59px;
+}
+
+.t2 {
+  max-width: 750px;
+  font-size: 23px;
+  margin: 20px 0px;
+  line-height: 40px;
+}
+
+.takeALookBtn a {
+  margin: 20px 0px;
+  color: var(--whiteColor);
+  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1);
+  background-color: var(--blueGray);
+  font-size: 19px;
+  padding: 15px 55px 15px 55px;
+  letter-spacing: 0.05em;
+}
+
+.takeALookBtn a:hover {
+  background-color: var(--midnightBlue);
+  transition: 0.2s;
+}
+
+.slide-bottom {
+  animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(-93px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.slide-top {
+  animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-93px);
+  }
+}
+
+
+/* CONTACT */
+
+.subHeaderContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)),
+    url('../img/contactBg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+  box-shadow: 0px 10px 45px -3px rgba(0, 0, 0, 0.4);
+}
+
+.t1C h1 {
+  color: var(--inColorText)!important;
+}
+
+.t2C p {
+  color: var(--inColorLabel)!important;
+}

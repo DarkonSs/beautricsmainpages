@@ -1,0 +1,52 @@
+/* MAIN PAGES */
+.pagesSubHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--plumColor);
+    margin-bottom: 100px;
+    box-shadow: 0px 10px 45px -3px rgba(0, 0, 0, 0.4);
+    padding: 100px 0px;
+}
+
+.pagesSubHeaderContent div>h1,
+.pagesSubHeaderContent div>p {
+    color: var(--inColorText);
+}
+
+.pagesSubHeaderContentTitle {
+    display: flex;
+    align-items: center;
+}
+
+.pagesSubHeaderContentTitle img {
+    margin-right: 20px;
+}
+
+/* CHILD PAGES */
+
+.childPagesSubHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url('../makeup/img/blushBrush.png');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    box-shadow: 0px 10px 45px -3px rgba(0, 0, 0, 0.4);
+    padding: 200px 0px;
+}
+
+.childPagesSubHeaderContent div>h1,
+.childPagesSubHeaderContent div>p {
+    color: var(--inColorText);
+    font-size: 25px;
+}
+
+.childPagesSubHeaderContentTitle img {
+    margin-right: 20px;
+}

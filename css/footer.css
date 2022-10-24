@@ -1,0 +1,76 @@
+footer {
+  background-color: #020408;
+  padding-top: 60px;
+}
+
+.footer {
+  padding: 0px 70px 70px 70px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.socialMedia {
+  color: var(--inColorText);
+}
+
+.mainFooter {
+  max-width: 380px;
+}
+
+.socialMedia {
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.socialMedia img {
+  padding-top: 9px;
+}
+
+.socialMedia img:hover {
+  box-shadow: 0px 10px 25px -10px rgba(244, 244, 244, 0.15);
+  transition: 0.2s;
+}
+
+.linksFooter {
+  color: var(--inColorText);
+  display: flex;
+}
+
+.linksSide div {
+  display: flex;
+  flex-direction: column;
+  color: var(--inColorLabel);
+  line-height: 30px;
+}
+
+.linksPArt {
+  margin: 0px 40px;
+}
+
+.linksPArt div {
+  margin: 25px 0px;
+}
+
+.backUpBtn {
+  display: flex;
+  justify-content: center;
+  color: var(--inColorLabel);
+  box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1);
+  background-color: #060b14;
+  font-size: 13px;
+  padding: 10px 40px 10px 40px;
+  letter-spacing: 0.05em;
+  max-width: 180px;
+  margin-left: 80%;
+  margin-bottom: 20px;
+}
+
+.backUpBtn a {
+  color: var(--inColorLabel);
+}
+
+.backUpBtn:hover {
+  background-color: #070e1a;
+  transition: 0.2s;
+}
